@@ -1,0 +1,35 @@
+div{
+
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .formulario{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        
+        label {
+            margin: 1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .submit{
+            height: 2rem;
+        }
+        input {
+            margin: .8rem;
+          
+        }
+          
+    }
+
+    a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+}

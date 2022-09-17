@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    
+    nav{
+        width: 10%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.5rem;
+        padding: .5rem;
+    }
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    font-size: 1.5rem;
+}
